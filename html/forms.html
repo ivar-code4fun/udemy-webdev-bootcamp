@@ -6,9 +6,11 @@
 <body>
 	<h1>Login</h1>
 
-	<form>
-		<input type="text" placeholder="username">
-		<input type="password" placeholder="password">
+	<form action="http://www.wikipedia.org" method="get">
+		<label for="username">EMail : </label>
+		<input name="username" type="email" placeholder="email" required>
+		<label for="password">Password : </label>
+		<input id="password" type="password" placeholder="password" required>
 		<input type="submit">
 	</form>
 </body>
